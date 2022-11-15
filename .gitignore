@@ -3,3 +3,4 @@ venv
 data.json
 groups.csv
 user.json
+*.xlsx
