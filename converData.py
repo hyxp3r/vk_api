@@ -18,6 +18,6 @@ class ConvertToDF:
                 df_2["Группа в ВК"]  = k
                 self.df = pd.concat([self.df, df_2], axis=0)
 
-            self.df = self.df.drop_duplicates(subset=["ID"])
+        self.df = self.df.drop_duplicates(subset=["ID"])
 
-            return self.df
+        return self.df
