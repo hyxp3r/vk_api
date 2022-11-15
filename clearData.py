@@ -123,4 +123,4 @@ class ClearUsersMeta:
 
                         usersMeta[k].append(inside_dict)
 
-            return usersMeta
+        return usersMeta
